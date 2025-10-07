@@ -95,12 +95,12 @@
     <group name="hand"/>
   </group>
   <group_state group="hand" name="open">
-    <joint name="panda_finger_joint1" value="0.035"/>
-    <joint name="panda_finger_joint2" value="0.035"/>
+    <joint name="panda_finger_joint1" value="0.04"/>
+    <joint name="panda_finger_joint2" value="0.04"/>
   </group_state>
   <group_state group="hand" name="close">
-    <joint name="panda_finger_joint1" value="0.028"/>
-    <joint name="panda_finger_joint2" value="0.028"/>
+    <joint name="panda_finger_joint1" value="0.0"/>
+    <joint name="panda_finger_joint2" value="0.0"/>
   </group_state>
   <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
   <end_effector group="hand" name="hand" parent_group="panda_arm" parent_link="panda_link8"/>
